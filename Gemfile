@@ -52,3 +52,24 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'administrate'
+gem 'bootstrap', '~> 4.0.0'
+gem 'bourbon'
+gem 'devise'
+gem 'high_voltage'
+gem 'pg', '~> 0.18'
+gem 'pundit'
+
+group :development do
+  gem 'better_errors'
+  gem 'capistrano', '~> 3.0.1'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails', '~> 1.1.0'
+  gem 'capistrano-rails-console'
+  gem 'capistrano-rvm', '~> 0.1.1'
+  gem 'hub', :require=>nil
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
